@@ -1,0 +1,58 @@
+body{
+    background-color: #ccc;
+}
+header{
+color:blue
+  }    
+header h1,
+header p{ 
+    color: lightcoral ;
+}
+header h2{
+    color:brown;
+    margin-left: 15px;
+}
+h3{
+    color:block;
+}
+p
+{
+    color: red;
+}
+h2{
+    color: blue;
+    margin-left: 30px;
+}
+h3{
+    color: royalblue;
+}
+section span{
+    color:blanchedalmond;
+}
+table, th, td{
+    border: 1px solid;
+}
+.contact{
+    background-color: aqua;
+}
+input,select,textarea{
+    width: 8 0%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} 
+.user{
+  margin: 0px 0px 0px 0px;
+}
+ .msg{
+    margin: 0px 0px 0px 0px;
+  }
+.count{
+    margin: 0px 0px 0px 0px;
+  }
+.mail{
+    margin: 0px 0px 0px 0px;
+  }
+label{
+    margin: 0px 0px 0px 0px;
+}
