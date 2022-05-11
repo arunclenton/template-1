@@ -1,4 +1,3 @@
-html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,34 +6,45 @@ html
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/icofont.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-</head>
 
 <body>
-
     <header>
-        <h1>ARUNCLENTON</h1>
-        <h2>BScCOMPUTERSCIENCE</h2>
-        <p>The content that goes inside each section can differ as
+        <div class="header">
+            <h1>ARUNCLENTON</h1>
+            <h2>BScCOMPUTERSCIENCE</h2>
+        </div>
+        <p class="rajan">The content that goes inside each section can differ as
             well, depending on whether you are applying for a job, an internship, or for a Ph.D. program</p>
-        <nav>
-            <a href="tel:6379055616">6379055616</a>
-            <a href="mailto:arunclenten@gmail.com">arunclenten@gmail.com</a>
-            <a href="instagram:https//instagram.com/in/mr-c-ra-zy-bo-y"
-                target=blank>www.instagram.com.mr-c-ra-zy-bo-y</a>
-            <a href="https://g.page/bsrmallthraipakkam" target=blank>thraipakkam.chennai</a>
-            <a href="https://linkin.com/in/arunclenton" target=blank>www.linkin.com.arunclenton</a>
-        </nav>
     </header>
+    <nav>
+        <a href="tel:6379055616"><i class="icofont-phone"></i>6379055616</a>
+        <a href="mailto:arunclenten@gmail.com"><i class="icofont-email"></i>arunclenten@gmail.com</a>
+        <a href="instagram:https//instagram.com/in/mr-c-ra-zy-bo-y" target=blank><i
+                class="icofont-instagram"></i>mr-c-ra-zy-bo-y</a>
+        <a href="https://g.page/bsrmallthoraipakkam" target=blank><i
+                class="icofont-location-pin"></i>thraipakkam.chennai</a>
+        <a href="https://linkin.com/in/arunclenton" target=blank><i class="icofont-linkedin"></i>arunclenton</a>
+    </nav>
     <section>
         <h2>KEY SKILLS</h2>
-        <P>
-            <SPan>phone</SPan>
-            <SPan>laptop</SPan>
-            <SPan>mail</SPan>
-            <SPan>instagram</SPan>
-        </P>
-        <div></div>
+        <div class="key">
+            <span>phone</span>
+            <span>laptop</span>
+            <span>mail</span>
+            <span>instagram</span>
+            <span>whatsapp</span>
+        <span>twitter</span>
+        </div>
+        <div>
+            <h2>TECHNICAL SKILLS</h2>
+            <div class="arun">
+                <P><strong>languages:</strong>c++, c,java,programming</P>
+                <p><strong>opreating system :</strong>window(xp nt3.x-4.0 2000 2003)and UNIX</p>
+            </div>
+        </div>
     </section>
     <section>
         <h2>PROFESSIONALSKILLS</h2>
@@ -61,7 +71,7 @@ html
         </div>
     </section>
     <h2>EDUCATION</h2>
-    <table cellpadding="10" cellspacing="1" width="80">
+    <table>
         <tr>
             <th>degree</th>
             <th>college</th>
@@ -92,18 +102,18 @@ html
         <h3>contect me</h3>
         <form>
             <div class="user">
-                <label for="username"></label> name <input type="text" name="arunclenton" placeholder="enter your name"
+                <label for="username">name</label> <input type="text" name="arunclenton" placeholder="enter your name"
                     id="username">
             </div>
             <br>
             <div class="mail">
-                <label for="email id"></label> email id<input type="text" name="arunclenton@mail.com" placeholder=""
-                    id="email id">
+                <label for="email id">email id</label><input type="text" name="arunclenton@mail.com"
+                    placeholder="e mail" id="email id">
             </div>
             <br>
             <div class="phone">
-                <label for="phone number"></label> phone number <input type="text" name="6379055616" placeholder=""
-                    id="phone number">
+                <label for="phone number"> phone number</label><input type="text" name="6379055616"
+                    placeholder="phone number" id="phone number">
             </div>
             <br>
             <div class="count">
@@ -114,9 +124,9 @@ html
                 </select>
             </div>
             <br>
-            <div class="msg" >
-                <label for="massage">massage</label>
-                <textarea name="massage" placeholder="" id="massage"></textarea>
+            <div class="msg">
+                <label for="message">massage</label>
+                <textarea name="message" placeholder="" id="message"></textarea>
             </div>
             <br>
             <button>submit</button>

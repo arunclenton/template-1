@@ -1,58 +1,127 @@
 body{
-    background-color: #ccc;
+    background-color: rgb(240, 230, 230);
 }
-header{
-color:blue
-  }    
-header h1,
-header p{ 
+header {
+color:blue;
+background-color: rgba(11, 121, 155, 0.247);
+padding-top: 2%;
+}  
+.header h1{
+    margin-left: 30px;
+    font-size: 40px;
+}
+.rajan{ 
     color: lightcoral ;
+    margin-left: 30px;
+    font-size: 20px;
+    padding-bottom:1% ;
+    padding-top: 1%;
 }
-header h2{
+.header h2{
     color:brown;
-    margin-left: 15px;
+    margin-left: 30px;
+    font-size: 30px;
+    padding-top: 1%;
 }
-h3{
-    color:block;
+nav{
+    background-color: red;
+    padding-top: 30px;
 }
-p
-{
-    color: red;
+nav a{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 30px;
+   padding-bottom: 20px;
+    word-spacing: 30px;
+    padding-top: 1%;
 }
 h2{
     color: blue;
     margin-left: 30px;
+    font-size: 30px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.arun{
+    color: black;
+    margin-left: 30px;
+    line-height: 2;
+}
+.key{
+    color:rgb(14, 13, 12);
+    font-size: 30px;
+    margin-left: 30px;
+    word-spacing: 10px;
+}
+.key span{
+    border: 1px solid;
+    background-color: blue;
+    padding: 10px 50px 10px 50px;
 }
 h3{
     color: royalblue;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-bottom: 1%;
 }
-section span{
-    color:blanchedalmond;
+ol{
+    font-size: 20;
+    margin-left: 45px;
+    line-height: 2;
 }
 table, th, td{
     border: 1px solid;
+    margin-left: 30;
+    font-size: 20px;
+    padding-bottom: 2%;
+    height: 100;
+    width: 50%;
 }
 .contact{
-    background-color: aqua;
+    background-color: rgb(94, 174, 240);
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 2%;
+}
+.contact h3{
+    color: rgb(250, 15, 15);
+    font-size: 30px;
+    margin-left: 200px;
+    margin-bottom: 2%;
 }
 input,select,textarea{
     width: 8 0%;
     padding: 12px;
-    border: 1px solid #ccc;
+     border: 1px solid #ccc;
     border-radius: 4px;
 } 
-.user{
-  margin: 0px 0px 0px 0px;
+form{
+    margin: 50px 50px;
 }
- .msg{
+.user,.msg,.count,.mail,.phone{
+    color: rgb(230, 237, 238);
     margin: 0px 0px 0px 0px;
-  }
-.count{
-    margin: 0px 0px 0px 0px;
-  }
-.mail{
-    margin: 0px 0px 0px 0px;
-  }
-label{
-    margin: 0px 0px 0px 0px;
+     font-size: 20px;
+}
+.user label{
+    margin-right: 100px;
+}
+.mail label{
+    margin-right: 82px;
+}
+.phone label{
+    margin-right: 32px;
+}
+.count label{
+    margin-right: 83px;
+}
+.msg label{
+    margin-right: 75px;
+}
+button{
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+    margin-left: 190px;
+    font-size: 30;
 }
