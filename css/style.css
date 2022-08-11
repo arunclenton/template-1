@@ -1,6 +1,6 @@
  .container{
-    padding-left: 220px;
-    padding-right: 160px;
+    padding-left: 151px;
+    padding-right: 151px;
     margin-left: auto;
     margin-right: auto;
  }
@@ -45,7 +45,7 @@ nav a{
 .keyskills{
    padding-bottom: 30px;
 }
-.container h2{
+ h2{
     color:red;
     font-size: 30px;
     margin-left: 59px;
@@ -59,6 +59,10 @@ nav a{
     background-color: #f02424;
     position: absolute;
     left: -50px;
+}
+
+p{
+    font-size: 20px;
 }
 .arun{
     color: black;
@@ -75,7 +79,7 @@ nav a{
     font-size: 25px;
 }
 .key span{
-    border: 1px solid;
+    /* border: 1px solid; */
     background-color: rgb(6, 6, 12);
     padding: 5px 30px;;
     border-radius: 20px;
@@ -106,6 +110,7 @@ table, th, td{
     margin-left: 60px;
     margin-right:420px ;
     margin-top: 2%;
+    width: 525px;
 }
 .contact h3{
     color: rgb(250, 15, 15);
@@ -118,7 +123,7 @@ input,select,textarea{
     padding: 12px;
      border: 1px solid #ccc;
     border-radius: 4px;
-} 
+}
 form{
     margin: 50px 50px;
 }
@@ -134,19 +139,21 @@ form{
     margin-right: 82px;
 }
 .phone label{
-    margin-right: 32px;
+    margin-right: 38px;
 }
 .count label{
     margin-right: 83px;
 }
 .count select{
-    width: 40%;
+    width: 46%;
     padding: 12px;
      border: 1px solid #ccc;
     border-radius: 4px;
 }
 .msg label{
     margin-right: 75px;
+    position: relative;
+    top: -34px;
 }
 button{
     color: #fff;
@@ -154,6 +161,9 @@ button{
     text-align: center;
     margin-left: 150px;
     font-size: 30px;
+    border-color: rgb(16, 16, 243);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
  footer{
    margin-left: 59px;  
